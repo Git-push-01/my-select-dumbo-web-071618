@@ -1,5 +1,5 @@
 def my_select(collection)
- i = 0 
+ i = 0
  x = []
  while i < collection.length
    if yield(collection[i]) == true
@@ -7,7 +7,7 @@ def my_select(collection)
   end
   i += 1
 end
-x 
+x
 
  # your code here!
 end
